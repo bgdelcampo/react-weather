@@ -1,41 +1,9 @@
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  line-height: 28px;
-  margin-bottom: 0;
-}
-
-.containerWrapper {
-  margin: 40px auto;
+.App {
   max-width: 600px;
+  margin: 30px auto;
 }
 
-.bigContainer {
-  background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
-  border: 1px solid #002323;
-  border-radius: 25px;
-  box-shadow: 1px 1px 10px #000;
-  margin: 40px auto;
-  max-width: 600px;
-  color: white;
-  padding: 20px;
-}
-
-.container {
-  max-width: 400px;
-  border: 1px solid black;
-  box-shadow: 1px 1px 10px grey;
-  border-radius: 10px;
-  padding: 40px;
-  background: none;
-  color: white;
-  margin-bottom: 100px;
-}
-
-.unit {
-  position: relative;
-  font-size: 16px;
-  top: -15px;
+.App footer {
+  font-size: 11px;
+  margin: 10px 0;
 }

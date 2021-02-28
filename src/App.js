@@ -1,21 +1,28 @@
-import "bootstrap/dist/css/bootstrap.css";
+import React from "react";
+import Weather from "./Weather";
 import "./App.css";
-import Footer from "./Footer";
-import Form from "./Form";
-import CurrentWeather from "./CurrentWeather";
 
-function App() {
+export default function App() {
   return (
-    <div>
-      <div className="containerWrapper">
-        <div className="bigContainer">
-          <Form />
-          <CurrentWeather />
-        </div>
+    <div className="App">
+      <div className="container">
+        <Weather defaultCity="New York" />
+
+        <footer>
+          This project was coded by{" "}
+
+            Bea
+          {" "}
+          and is{" "}
+          <a
+            href="https://github.com/bgdelcampo/react-weather"
+            target="_blank"
+          >
+            open-sourced on GitHub
+          </a>{" "}
+
+        </footer>
       </div>
-      <Footer />
     </div>
   );
 }
-
-export default App;
