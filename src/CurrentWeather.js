@@ -1,12 +1,12 @@
 import React from "react";
 import "./CurrentWeather.css";
-export default function () {
+export default function CurrentWeather() {
     return (
         <div className="container">
             <h1 id="location">Dreden</h1>
             <p id="description-city" className="description">
                 Clear
-      </p>
+            </p>
             <div className="row align-items-center">
                 <div className="col-md-7">
                     <div className="d-flex weather-temperature align-items-center">
